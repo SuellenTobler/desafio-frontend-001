@@ -51,21 +51,21 @@
 					                <i class="glyphicon glyphicon-eye-open"></i> <span>{{ shot.views_count }}</span>
 		            			</div>
 		            		</div>
-		            	</a>	
+		            	</a>
 		            	</div>
 		                <div class="details collapse" id="{{ shot.id }}">
 		                	<img ng-src="{{ shot.user.avatar_url}}" alt="{{ shot.user.name }}" class="img-responsive img-circle">
 		                	<h3><a href="https://dribbble.com/{{ shot.user.username }}" target="_blank">{{ shot.user.name }}</a></h3>
-		                		
+
 		                	<p ng-bind-html="shot.description"></p>
 		                	<a href="{{shot.html_url}}" target="_blank" class="link"><p><i class="glyphicon glyphicon-new-window"></i> <span>ver no Dribble</span></p></a>
 		                </div>
 
 		            </li>
-		        </ul>			
+		        </ul>
 
 			</div>
-		</div>		
+		</div>
 
 
 	</div>
